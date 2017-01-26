@@ -14,6 +14,9 @@ const wkReporter = require("wk-e2e-reporter");
 
 wkDefaults.loadProfiles('e2e');
 
+// loading custom configuration
+wkDefaults.loadConfig(require('./gulp.config'));
+
 gulp.task('e2e', function() {
     gulp.src([])
       .pipe(protractor({
