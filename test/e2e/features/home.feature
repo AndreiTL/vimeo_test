@@ -18,6 +18,7 @@ Feature: Testing home page
   Scenario: Open Login modal window
     When I click "Log In Button"
       And I wait visibility of "Modal LogIn" element on page "Home"
+      And I wait 1 seconds
     Then "UserEmail" should be visible
       And "UserPassword" should be visible
       And "Log In with email" should be visible
@@ -26,7 +27,7 @@ Feature: Testing home page
     When I am staying on "Home" page
     Then "Modal LogIn" should be visible
       And I type "andrei.qa.in@gmail.com" in "UserEmail"
-      And I type "Lip1mychar" in "UserPassword"
+      And I type "LLL" in "UserPassword"
     When I click "Log In with email"
       And I wait 2 seconds
     Then I should not find "Modal LogIn" on page "Home"

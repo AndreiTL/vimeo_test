@@ -5,7 +5,7 @@ exports.config = {
   baseUrl: "https://vimeo.com",
   onPrepare: function() {
     var width = 1280;
-    var height = 960;
+    var height = 768;
     return browser.driver.manage().window().setSize(width, height);
   },
   specs: [
