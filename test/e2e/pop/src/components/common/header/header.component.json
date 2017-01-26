@@ -1,0 +1,42 @@
+{
+  "selector": {
+    "type": "css",
+    "selector": "#topnav_desktop"
+  },
+  "children": {
+    "Avatar": {
+      "selector": {
+        "type": "css",
+        "selector": "#topnav_menu_avatar"
+      },
+      "children": {
+        "Dropdown menu": {
+          "selector": {
+            "type": "css",
+            "selector": "#topnav_user_dropdown"
+          }
+        }
+      }
+
+    },
+    "Log In Button": {
+      "selector": {
+        "type": "css",
+        "selector": "[data-ga-event-click=\"top_nav|login\"]"
+      }
+    },
+    "Join Button":{
+      "selector": {
+        "type": "css",
+        "selector": "[data-ga-event-click=\"top_nav|join\"]"
+      }
+    },
+    "Upload Button": {
+      "selector": {
+        "type": "css",
+        "selector": "[data-fatal-attraction=\"component:top_nav|keyword:upload\"]"
+      }
+    }
+
+  }
+}

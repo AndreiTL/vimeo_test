@@ -1,0 +1,5 @@
+{
+  "Home": {
+    "$ref": "./pages/home.page.json"
+  }
+}

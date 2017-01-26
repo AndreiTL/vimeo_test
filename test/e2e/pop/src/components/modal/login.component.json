@@ -1,0 +1,26 @@
+{
+  "selector": {
+    "type": "css",
+    "selector": ".iris_modal > .iris_modal-wrapper > .iris_modal-box"
+  },
+  "children": {
+    "UserEmail": {
+      "selector": {
+        "type": "css",
+        "selector": "#login_form > .input_wrapper > #signup_email"
+      }
+    },
+    "UserPassword": {
+      "selector": {
+        "type": "css",
+        "selector": "#login_form > .input_wrapper > #login_password"
+      }
+    },
+    "Log In with email": {
+      "selector": {
+        "type": "css",
+        "selector": "[data-gtm-click=\"modal_login_email_click\"]"
+      }
+    }
+  }
+}

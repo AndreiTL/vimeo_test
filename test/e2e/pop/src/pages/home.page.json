@@ -1,0 +1,17 @@
+{
+  "extends": {
+    "$ref": "./root.page.json"
+  },
+  "url": "/cameo",
+  "children": {
+    "Header Desktop": {
+      "$ref": "../components/common/header/header.component.json"
+    },
+    "Modal LogIn": {
+      "$ref": "../components/modal/login.component.json"
+    },
+    "Cameo Content": {
+      "$ref": "../components/content/content.component.json"
+    }
+  }
+}

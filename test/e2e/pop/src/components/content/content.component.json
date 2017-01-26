@@ -1,0 +1,29 @@
+{
+  "selector": {
+    "type": "css",
+    "selector": "#cameo"
+  },
+  "children": {
+    "Content Menu": {
+      "selector": {
+        "type": "css",
+        "selector": ".section_menu"
+      }
+    },
+    "Intro background": {
+      "selector": {
+        "type": "css",
+        "selector": "#intro"
+      },
+      "children": {
+        "Cameo Intro Wrapper": {
+          "selector": {
+            "type": "css",
+            "selector": ".inner > .animation_wrapper"
+          }
+        }
+      }
+    }
+
+  }
+}
